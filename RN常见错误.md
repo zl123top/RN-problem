@@ -15,7 +15,9 @@ set up your Android development environment:
 https://facebook.github.io/react-native/docs/getting-started.html
 error spawnSync ./gradlew EACCES
 ```
-解决办法
+解决办法，检查这个目录的权限 android/gradlew
+
+权限应该是 755 而不是 644
 ```
 chmod 755 android/gradlew
 ```
