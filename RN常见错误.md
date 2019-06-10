@@ -19,3 +19,4 @@ error spawnSync ./gradlew EACCES
 ```
 chmod 755 android/gradlew
 ```
+使gradlew成为可执行文件
