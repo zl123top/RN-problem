@@ -1,4 +1,4 @@
-### 报错
+### 1.报错
 
 ```
 react-native run-android
@@ -22,3 +22,5 @@ error spawnSync ./gradlew EACCES
 chmod 755 android/gradlew
 ```
 使gradlew成为可执行文件
+linux系统文件权限问题
+https://blog.csdn.net/u013197629/article/details/73608613
