@@ -24,3 +24,5 @@ chmod 755 android/gradlew
 使gradlew成为可执行文件
 linux系统文件权限问题
 https://blog.csdn.net/u013197629/article/details/73608613
+
+### 2.react-native 浏览器debug工具打印log，有时候是错的
